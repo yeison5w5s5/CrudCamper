@@ -1,5 +1,7 @@
 from os import system
 from modulos import camper, trainer
+import json
+
 def menu():
     print("""
     Este es el menu principal
@@ -12,8 +14,11 @@ while Ban:
     opc=int(input("\t"))
     match(opc):
         case(1):
-            system("clear")
-            camper.mcamper()
+            with open("modulos/storage/camper.json", "r") as f:
+                camper.camper=json.loads(f.read())
+                f.close()
+                system("clear")
+                camper.mcamper()
         case(2):
             system("clear")
             trainer.mtrainer()

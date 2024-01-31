@@ -1,8 +1,21 @@
 from os import system
-
+import json
+from .data import camper
 def guardar():
     system("clear")
-    print("guardando")
+    info= {
+        "nombre":str.upper(input("Ingrese su nombre: ")),
+        "Apellido":str.upper(input("Ingrese su apellido: ")),
+        "edad": int(input("ingrese su edad: ")),
+        "hobies":"Comer"
+    }
+    camper.append(info)
+    with open("modulos/storage/camper.json", "w") as f:
+        data=json.dumps(camper, indent=4)
+        f.write(data)
+        f.close()
+        return "Sucessfully Camper"
+    
 def buscar():
     system("clear")
     print("Buscando")

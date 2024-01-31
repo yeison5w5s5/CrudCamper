@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Yeison",
+        "Apellido": "Wilchez",
+        "edad": 21,
+        "hobies": {
+            "1": "Montar bici",
+            "Deportes": [
+                "baloncesto",
+                "Voleyball"
+            ]
+        }
+    },
+    {
+        "nombre": "DAVID",
+        "Apellido": "KARDENAS",
+        "edad": 27,
+        "hobies": "Comer"
+    },
+    {
+        "nombre": "JESUS",
+        "Apellido": "MARQUES",
+        "edad": 34,
+        "hobies": "Comer"
+    }
+]
