@@ -1,8 +1,22 @@
 from os import system
-
+from .data import trainer
+import json
 def guardar():
     system("clear")
-    print("guardando")
+    system("clear")
+    info= {
+        "nombre":str.upper(input("Ingrese su nombre: ")),
+        "Apellido":str.upper(input("Ingrese su apellido: ")),
+        "edad": int(input("ingrese su edad: ")),
+        "Genero": str.upper(input("Ingrese su nombre: ")),
+        "materia":str.upper(input("Ingrese su nombre: "))
+    }
+    trainer.append(info)
+    with open("modulos/storage/trainer.json", "w") as f:
+        data=json.dumps(trainer, indent=4)
+        f.write(data)
+        f.close()
+        return "Sucessfully Camper"
 def buscar():
     system("clear")
     print("Buscando")

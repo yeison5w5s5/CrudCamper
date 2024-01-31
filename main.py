@@ -20,8 +20,11 @@ while Ban:
                 system("clear")
                 camper.mcamper()
         case(2):
-            system("clear")
-            trainer.mtrainer()
+            with open("modulos/storage/trainer.json", "r") as f:
+                trainer.trainer=json.loads(f.read())
+                f.close()
+                system("clear")
+                trainer.mtrainer()
         case(3):
             system("clear")
             print("\t===Fin===")
