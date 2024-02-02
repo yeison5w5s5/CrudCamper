@@ -10,6 +10,7 @@ def menu():
         3- Salir""")
 Ban=True
 while Ban:
+    system("clear")
     menu()
     opc=int(input("\t"))
     match(opc):

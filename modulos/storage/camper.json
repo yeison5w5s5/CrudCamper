@@ -1,26 +1,33 @@
 [
     {
         "nombre": "Yeison",
-        "Apellido": "Wilchez",
+        "apellido": "Wilchez",
         "edad": 21,
-        "hobies": {
-            "1": "Montar bici",
-            "Deportes": [
-                "baloncesto",
-                "Voleyball"
-            ]
-        }
+        "genero": "masculino",
+        "codigotrainer":1
     },
     {
         "nombre": "DAVID",
-        "Apellido": "KARDENAS",
-        "edad": 27,
-        "hobies": "Comer"
+        "apellido": "GUERREO",
+        "edad": 28,
+        "genero": "Hombre"
     },
     {
         "nombre": "JESUS",
-        "Apellido": "MARQUES",
+        "apellido": "MARQUES",
         "edad": 34,
-        "hobies": "Comer"
+        "genero": "Fluido"
+    },
+    {
+        "nombre": "PABLO",
+        "apellido": "PEREZ",
+        "edad": 34,
+        "genero": "mujer"
+    },
+    {
+        "nombre": "FREDY",
+        "apellido": "GOMEZ",
+        "edad": 45,
+        "genero": "mujer"
     }
 ]

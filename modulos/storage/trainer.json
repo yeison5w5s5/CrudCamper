@@ -1,9 +1,23 @@
 [
     {
         "nombre": "Yeison",
-        "Apellido": "Wilchez",
+        "apellido": "Wilchez",
         "edad": 21,
         "genero": "Hombre",
-        "Materia": "Codigo"
+        "materia": "Codigo"
+    },
+    {
+        "nombre": "ADRIAN",
+        "apellido": "GARCIA",
+        "edad": 25,
+        "genero": "MACHO",
+        "materia": "PSICOLOGIA"
+    },
+    {
+        "nombre": "DAVID",
+        "apellido": "LOPEZ",
+        "edad": 34,
+        "genero": "HOMBRE",
+        "materia": "INGLES"
     }
 ]
